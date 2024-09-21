@@ -13,7 +13,7 @@ st.set_page_config(layout="wide", page_title="Forest Coverage Prediction", page_
 
 # LOAD AND PREP DATA ONCE
 @st.cache_resource
-def get_data(path='data\deplacements-presidents-republique-et-premiers-ministres-depuis-1945.json'):
+def get_data(path='data/deplacements-presidents-republique-et-premiers-ministres-depuis-1945.json'):
     
     data =  pd.read_json(path)
 
